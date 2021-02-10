@@ -8,7 +8,11 @@
 
 **Note:** This website is best viewed on high res screens (1080p and up). Check the [improvements section](#improvements) for future updates.
 
+**Landing page ↓**
+
 ![alt="landing page screenshot"](src/assets/landing-screenshot.png)
+
+**Add to cart demo ↓**
 
 ![alt="gif of add to cart flow"](src/assets/add-to-cart.gif)
 
