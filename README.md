@@ -8,7 +8,9 @@
 
 **Note:** This website is best viewed on high res screens (1080p and up). Check the [improvements section](#improvements) for future updates.
 
-*Insert screenshot
+![alt="landing page screenshot"](src/assets/landing-screenshot.png)
+
+![alt="gif of add to cart flow"](src/assets/add-to-cart.gif)
 
 ## Project Details
 
@@ -27,8 +29,10 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/java
 Future features / opportunities for improvement:
 
 - Make website responsive
-- TBD
+- Add hover animation to landing page
+- Add ability to increase / decrease quantity of each item in cart
+- Add message to display when user adds item to cart
 
 ## Acknowledgements
 
-Landing page and logo inspired by [Stephen Kelleher Studio's](https://stephenkelleher.com/) Crocs [case study](https://stephenkelleher.com/Crocs).
+Landing page and logo inspired by [Stephen Kelleher Studio's](https://stephenkelleher.com/) Crocs [case study](https://stephenkelleher.com/Crocs). Additional inspiration taken from the [SSENSE website](https://www.ssense.com/en-us).

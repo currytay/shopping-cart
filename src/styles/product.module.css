@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'AG Book Rounded';
+  src: url('../assets/agbookrounded-bold.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: "Mabry Pro";
+  src: url('../assets/Mabry\ Pro.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mabry Pro";
+  src: url('../assets/Mabry\ Pro\ Bold.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.productpagecontainer {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.productmaincontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.detailcontainer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  margin-top: 240px;
+}
+
+.infocontainer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.nametext {
+  font-family: "Mabry Pro";
+  font-weight: bold;
+  font-size: 24px;
+  color: #303035;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.colortext {
+  font-family: "Mabry Pro";
+  font-weight: normal;
+  font-size: 18px;
+  color: #303035;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+
+.descriptiontext {
+  font-family: "Mabry Pro";
+  font-weight: normal;
+  font-size: 14px;
+  color: #303035;
+  margin: 0;
+}
+
+.imagecontainer {
+  width: 450px;
+}
+
+.productimage {
+  width: 450px;
+  height: 206px;
+}
+
+.actioncontainer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.pricetext {
+  font-family: "Mabry Pro";
+  font-weight: normal;
+  font-size: 18px;
+  color: #303035;
+  margin: 34px 0 20px 0;
+}
+
+.sizepicker {
+  width: 300px;
+  height: 38px;
+  background-color: #E5E5E5;
+  margin-bottom: 20px;
+  font-family: "Mabry Pro";
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.sizepicker:active {
+  outline: none;
+}
+
+.sizepicker:visited {
+  outline: none;
+}
+
+.sizepicker:focus {
+  outline: none;
+}
+
+.cartbutton {
+  width: 200px;
+  height: 48px;
+  background-color: #303035;
+  font-family: "Mabry Pro";
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.cartbutton:focus {
+  outline: none;
+}
+
+.errorcontainer {
+  display: flex;
+  background-color: #a20201;
+  width: 100vw;
+  height: 40px;
+  position: absolute;
+  top: 60px;
+  align-items: center;
+  justify-content: center;
+  animation: fade-in-out;
+  animation-duration: 5s;
+}
+
+.alerticon {
+  margin-right: 10px;
+}
+
+.errortext {
+  font-family: "Mabry Pro";
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+@keyframes fade-in-out {
+  0% {
+      opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
